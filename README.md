@@ -2,6 +2,17 @@
 
 Sometimes it is necessary to uninstall and reinstall your Native Instruments software, drives and files as a solution for technical issues. The list below includes all files and folders created on your system after installing any Native Instrumetns products on an OS X operating system.
 
+## How to Use the Uninstaller
+
+1. Download the [ni-uninstall.command](https://raw.githubusercontent.com/spencerthayer/Native-Instrumetns-OSX-Uninstaller/master/ni-uninstall.command "ni-uninstall.command") file.
+2. Double clikc the ni-uninstall.command file.
+3. When prompted to uninstall everything type either "Y" or "y".
+4. You will then be asked for your *root user* password.
+5. The command will uninstall all NI files.
+6. The command will launch *Disk Utility* and *Repair Permissions*.  
+
+## What does the Uninstaller Do?
+
 In order for the command file to uninstall your NI application it will need *root acess* to remove the following files and folder from your system:
 
 - Macintosh HD > Applications > Native Instruments > *Product Name* (folder)
