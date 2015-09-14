@@ -24,6 +24,6 @@ In order for the command file to uninstall your NI application it will need *roo
 - Macintosh HD > Library > Application Support > Native Instruments > *Product Name* (folder)
 - Macintosh HD > Users > *Your User Name* > Library > Preferences > com.native-instruments.*Product Name*.plist
 - Macintosh HD > Users > *Your User Name* > Library > Application Support > Native Instruments > *Product Name* (folder)
-- Macintosh HD > System > Library > Extensions > NIUSB *Product Name* kext files
+- Macintosh HD > System > Library > Extensions > NIUSB *Product Name*.kext files
 
 If you are uninstalling one of Native Instruments' sample-based programs, i.e. KONTAKT, BATTERY, AKOUSTIK PIANO or ELEKTRIK PIANO, there is also a sample library that can be deleted. It is located in the directory you chose during installation. Please note that it is NOT necessary to uninstall the library in most cases to fix common issues. You can safely leave this folder in place in most cases unless the problem you are having is related to the library content itself.
