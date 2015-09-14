@@ -5,7 +5,7 @@ Sometimes it is necessary to uninstall and reinstall your Native Instruments sof
 ## How to Use the Uninstaller
 
 1. Download the [ni-uninstall.command](https://raw.githubusercontent.com/spencerthayer/Native-Instrumetns-OSX-Uninstaller/master/ni-uninstall.command "ni-uninstall.command") file.
-2. Double clikc the ni-uninstall.command file.
+2. Double click the ni-uninstall.command file.
 3. When prompted to uninstall everything type either "Y" or "y".
 4. You will then be asked for your *root user* password.
 5. The command will uninstall all NI files.
