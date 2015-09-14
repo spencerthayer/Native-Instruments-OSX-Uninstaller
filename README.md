@@ -2,7 +2,7 @@
 
 Sometimes it is necessary to uninstall and reinstall your Native Instruments software, drives and files as a solution for technical issues. The list below includes all files and folders created on your system after installing any Native Instrumetns products on an OS X operating system.
 
-In order for the command file to uninstall your NI application it will need root acess to remove the following files and folder from your system:
+In order for the command file to uninstall your NI application it will need *root acess* to remove the following files and folder from your system:
 
 - Macintosh HD > Applications > Native Instruments > *Product Name* (folder)
 - Macintosh HD > Library > Preferences > com.native-instruments.*Product Name*.plist
