@@ -1,4 +1,4 @@
-# Native Instrumetns OSX Uninstaller
+# Native Instruments OSX Uninstaller
 
 Sometimes it is necessary to uninstall and reinstall your Native Instruments software, drives and files as a solution for technical issues. The list below includes all files and folders created on your system after installing any Native Instrumetns products on an OS X operating system.
 
