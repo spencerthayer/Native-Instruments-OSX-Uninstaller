@@ -4,8 +4,7 @@
 read -p "Are you sure you want to uninstall all Native Instruments software and drivers?" -n 1 -r
 echo
 echo
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
+if [[ $REPLY =~ ^[Yy]$ ]]; then
   echo
   echo "Uninstalling..."
   sudo rm -rfv /Applications/Native\ Instruments
@@ -18,11 +17,14 @@ then
   sudo rm -fv ~/Library/Preferences/com.native-instruments.*.plist
   sudo rm -rfv ~/Library/Application\ Support/Native\ Instruments
   sudo rm -rfv /System/Library/Extensions/NIUSB*.kext
-  echo
-  echo "Repairing Disk Permissions"
-  echo
-  sudo diskutil repairPermissions /
-  echo
-  echo "EXIT"
+  if [[ ${OS_Version} == 10.11 ]]; then
+    echo "Operating System does not require disk utility to repair permissions."
+  else
+    echo "Repairing Disk Permissions"
+    echo
+    sudo diskutil repairPermissions /
+  fi
 fi
+echo
+echo "EXIT"
 exit
