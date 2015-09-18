@@ -1,6 +1,8 @@
 # Native Instruments OSX Uninstaller
 
-Sometimes it is necessary to uninstall and reinstall your Native Instruments software, drivers and files as a solution for technical issues. Unfortunately Native Instruments has removed their official uninstaller for OSX and their online documentation on the process is far from complete or accurate; even worse it's annoying to go through every directory and manually remove every file. This *.COMMAND* script will launch a terminal instance and guide you through the process of removing all Native Instruments software, drivers and files for you. 
+Sometimes it is necessary to uninstall and reinstall your Native Instruments software, drivers and files as a solution for technical issues. Unfortunately Native Instruments has removed their official uninstaller for OSX and their online documentation on the process is far from complete or accurate; even worse it's annoying to go through every directory and manually remove every file.
+
+This *.COMMAND* script will launch a terminal instance and guide you through the process of removing all Native Instruments software, drivers and files for you.
 
 ## How to Use the Uninstaller
 
