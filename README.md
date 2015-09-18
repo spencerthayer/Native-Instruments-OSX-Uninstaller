@@ -11,7 +11,9 @@ This *.COMMAND* script will launch a terminal instance and guide you through the
 3. When prompted to uninstall everything type either **Y** or **y**.
 4. You will then be asked for your *root user* password.
 5. The command will uninstall all NI files.
-6. The command will launch *Disk Utility* and *Repair Permissions*.  
+6. The command will launch *Disk Utility* and *Repair Permissions*.
+7. You will be asked if you want to reboot your computer.
+8. All done!
 
 ## What does the Uninstaller Do?
 
